@@ -1,0 +1,52 @@
+.heading{
+    position: relative;
+    padding: 2px 0;
+}
+.heading::after{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: orange;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.style{
+    position: relative;
+    width: 50px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: orange;
+}
+.style::before{
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 10px;
+    background-color: orange;
+    left: 0;
+    top: 0;
+}
+.style::after{
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 10px;
+    background-color: orange;
+    right: 0;
+    top: 0;
+}
+
+h2{
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+h3{
+    font-size: 12px;
+    margin-bottom: 30px;
+    color: gray;
+}
