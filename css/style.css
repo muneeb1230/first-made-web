@@ -71,7 +71,7 @@
 /* banner section-----========= */
 .banner {
     position: relative;
-    background-image: url(/images/banner\ img.jpg);
+    background-image: url(../images/banner\ img.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -174,7 +174,7 @@
 /* work--------========= */
 .work {
     position: relative;
-    background-image: url(/images/work\ img.jpg);
+    background-image: url(../images/work\ img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -287,7 +287,7 @@
 /* section project--------========= */
 .project {
     position: relative;
-    background-image: url(/images/wwwww.jpg);
+    background-image: url(../images/wwwww.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -513,7 +513,7 @@
 /* footer section------======== */
 .footer {
     position: relative;
-    background-image: url(/images/footer.jpg);
+    background-image: url(../images/footer.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
